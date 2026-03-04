@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- Common -->
+    <string name="back_arrow">&lt;</string>
+    <string name="see_all">Все &gt;</string>
+    <string name="reviews_format">%d отзывов</string>
+
+    <!-- Welcome screen -->
+    <string name="welcome_title">Сервис для\nбронирования услуг</string>
+    <string name="welcome_subtitle">Найдите заведение, выберите услугу и запишитесь за пару кликов</string>
+    <string name="welcome_btn_login">Войти</string>
+    <string name="welcome_divider_or">или</string>
+    <string name="welcome_btn_google">Войти через Google</string>
+    <string name="welcome_btn_guest">Продолжить как гость</string>
+
+    <!-- Login screen -->
+    <string name="login_title">Вход</string>
+    <string name="login_subtitle">Укажите номер телефона</string>
+    <string name="login_terms_prefix">Продолжая, вы соглашаетесь с </string>
+    <string name="login_terms_link">Условиями использования</string>
+    <string name="login_btn_get_code">Получить код</string>
+
+    <!-- OTP screen -->
+    <string name="otp_title">Код из СМС</string>
+    <string name="otp_sent_to">Отправлен на номер %s</string>
+    <string name="otp_resend_timer">Отправить код повторно через %s</string>
+    <string name="otp_btn_new_code">Получить новый код</string>
+
+    <!-- Name screen -->
+    <string name="name_title">Как вас зовут?</string>
+    <string name="name_subtitle">Это имя будет использоваться при записи</string>
+    <string name="name_placeholder">Введите имя</string>
+    <string name="name_btn_continue">Продолжить</string>
+
+    <!-- Bookings tab -->
+    <string name="bookings_tab_upcoming">Предстоящие</string>
+    <string name="bookings_tab_history">История</string>
+    <string name="bookings_empty">У вас пока нет записей</string>
+    <string name="bookings_specialist_label">Специалист</string>
+    <string name="bookings_address_label">Адрес</string>
+    <string name="bookings_add_to_calendar">Добавить в календарь</string>
+    <string name="bookings_already_in_calendar">Уже в календаре</string>
+    <string name="bookings_snackbar">Запись добавлена в календарь</string>
+    <string name="bookings_action_reschedule">Перенести</string>
+    <string name="bookings_action_change">Изменить запись</string>
+    <string name="bookings_action_cancel">Отменить запись</string>
+    <string name="history_empty">Здесь пока пусто</string>
+    <string name="history_cancelled">Отменено</string>
+
+    <!-- Profile screen -->
+    <string name="profile_title">Мой профиль</string>
+    <string name="profile_guest_name">Гость</string>
+    <string name="profile_language">Язык приложения</string>
+    <string name="profile_lang_russian">Русский</string>
+    <string name="profile_lang_uzbek">O\'zbekcha</string>
+    <string name="profile_lang_english">English</string>
+    <string name="profile_guest_hint">Вы используете приложение как гость. Чтобы получать напоминания и сохранять записи, войдите в аккаунт.</string>
+    <string name="profile_btn_login">Войти</string>
+    <string name="profile_field_name">Имя</string>
+    <string name="profile_field_phone">Телефон</string>
+    <string name="profile_field_gender">Пол</string>
+    <string name="profile_field_birth_date">Дата рождения</string>
+    <string name="profile_field_email">Email</string>
+    <string name="profile_add_email">Добавить email</string>
+    <string name="profile_notifications">Разрешить уведомления</string>
+    <string name="profile_notifications_subtitle">О статусах записи</string>
+    <string name="profile_logout">Выйти из профиля</string>
+    <string name="profile_delete_account">Удалить аккаунт</string>
+    <string name="profile_cd_edit">Редактировать</string>
+
+    <!-- Notifications screen -->
+    <string name="notifications_title">Уведомления</string>
+    <string name="notifications_empty">Вы увидите здесь напоминания и обновления по записям.</string>
+    <string name="notifications_mark_read">Отметить как прочитанное</string>
+    <string name="notifications_all_read">Все уведомления прочитаны</string>
+    <string name="notifications_action_rate">Оценить</string>
+    <string name="notifications_action_not_now">Не сейчас</string>
+    <string name="notifications_action_view_booking">Посмотреть запись</string>
+    <string name="notifications_action_ok">Понятно</string>
+    <string name="notifications_close">Закрыть</string>
+    <string name="notifications_sheet_footer">По вопросам обращайтесь в поддержку</string>
+
+    <!-- Favorites tab -->
+    <string name="favorites_title">Избранные</string>
+    <string name="favorites_empty">У вас пока нет избранных заведений</string>
+    <string name="favorites_filter_all">Все</string>
+    <string name="favorites_filter_beauty">Салоны красоты</string>
+    <string name="favorites_filter_clinics">Клиники</string>
+
+    <!-- Cancel booking -->
+    <string name="cancel_booking_title">Отменить запись?</string>
+    <string name="cancel_booking_message">Вы уверены, что хотите отменить запись? Это действие нельзя отменить.</string>
+    <string name="cancel_booking_btn_no">Нет</string>
+    <string name="cancel_booking_btn_confirm">Отменить</string>
+    <string name="cancel_booking_snackbar">Запись отменена</string>
+
+    <!-- Reschedule flow -->
+    <string name="reschedule_pick_other_day">Выбрать другой день</string>
+    <string name="reschedule_confirm_title">Перенести запись?</string>
+    <string name="reschedule_confirm_message">Вы выбрали новую дату и время: %s. Перенести запись на это время?</string>
+    <string name="reschedule_btn_cancel">Отменить</string>
+    <string name="reschedule_btn_confirm">Перенести</string>
+    <string name="reschedule_slot_busy">Занято</string>
+
+    <!-- Edit booking sheet -->
+    <string name="edit_booking_title">Изменить запись</string>
+    <string name="edit_services_label">Услуги</string>
+    <string name="edit_specialist_label">Специалист</string>
+    <string name="edit_save_btn">Сохранить изменения</string>
+    <string name="edit_services_done">Готово</string>
+    <string name="edit_any_specialist">Любой свободный специалист</string>
+    <string name="edit_snackbar_saved">Изменения сохранены</string>
+
+    <!-- Home screen -->
+    <string name="home_section_nearby">Ближайшие</string>
+    <string name="home_section_popular">Популярные</string>
+    <string name="home_section_high_rated">С высоким рейтингом</string>
+    <string name="home_tab_main">Главная</string>
+    <string name="home_tab_bookings">Мои записи</string>
+    <string name="home_tab_favorites">Избранные</string>
+    <string name="home_cd_notifications">Уведомления</string>
+    <string name="home_cd_search">Поиск</string>
+    <string name="home_cd_back">Назад</string>
+    <string name="home_cd_add_to_favorites">В избранное</string>
+
+    <!-- Location screen -->
+    <string name="location_open_in_maps">Открыть в картах</string>
+
+</resources>

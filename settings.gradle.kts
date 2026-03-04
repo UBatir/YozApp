@@ -1,0 +1,29 @@
+pluginManagement {
+    repositories {
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url = uri("https://artifactory.yandex.net/artifactory/yandex_mobile_releases/") }
+    }
+}
+
+rootProject.name = "YozApp"
+include(":composeApp")
+include(":core:core-ui")
+include(":core:core-network")
+include(":core:core-data")
+include(":feature:feature-auth")
+include(":feature:feature-home")
